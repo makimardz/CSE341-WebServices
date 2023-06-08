@@ -12,3 +12,7 @@ const port = 3000; // You can change the port number if needed
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+const dotenv = require("dotenv");
+dotenv.config();
+
